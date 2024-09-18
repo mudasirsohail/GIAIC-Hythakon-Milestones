@@ -1,0 +1,86 @@
+
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: white
+}
+
+form {
+    margin: auto;
+    background-color: teal; 
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 700px;
+    color: rgb(24, 23, 23); 
+}
+
+h1 {
+    text-align: center;
+    color: #1a1818; 
+}
+
+fieldset {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 30px;
+    margin-bottom: 10px;
+    background-color:powderblue; 
+}
+
+legend {
+    font-weight: bold;
+    text-align:center;
+    color: #1a1818; 
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #141313; 
+}
+
+input, textarea {
+    margin-top: 4px;
+    padding: 8px;
+    width: calc(100% - 1px);
+    border: 1px solid black; 
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: white; 
+    color: #000; /
+}
+
+button {
+    display: block;
+    width: 100%;
+    background-color:darkgoldenrod;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: teal; 
+}
+#resume-display {
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color:teal; 
+    color: white; 
+    outline: none;
+}
+
+
+
+#resume-display h2 {
+    color: #0a0808;  } 
